@@ -98,7 +98,7 @@ Alur program:
 
 ---
 
-## 🔄 Alur Singkat Program
+## Alur Singkat Program
 Program dimulai dari class `Main`, kemudian:
 - Game diinisialisasi
 - Player dan enemy dibuat
