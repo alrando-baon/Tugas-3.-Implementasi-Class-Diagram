@@ -1,15 +1,17 @@
 # Tugas-3.-Implementasi-Class-Diagram
 Implementasi Class Diagram dan cuplikan program
-            Nama dan NIM Anggota Kelompok
-            
+            Nama dan NIM Anggota Kelompok:
+            Andreas Tampubolon ( 2515101022 )
+            Blandina Susmaniarti ( 2515101041 )
+            Putri Revalina Situmeang ( 2515101061 )
 
-## Penjelasan Program
+# Penjelasan Program
 
 Program ini merupakan simulasi sederhana dari sebuah game RPG (Role-Playing Game) yang dibuat menggunakan konsep **Object-Oriented Programming (OOP)** dalam bahasa Java.
 
 Program terdiri dari beberapa class yang saling berhubungan, yaitu:
 
-### 1. Game_RPG
+# 1. Game_RPG
 Class ini berfungsi sebagai pengelola utama game.
 - Menyimpan informasi seperti judul dan versi game
 - Mengelola data player dan character
@@ -20,7 +22,7 @@ Class ini berfungsi sebagai pengelola utama game.
 
 ---
 
-### 2. Character
+# 2. Character
 Merupakan class dasar (superclass) untuk semua karakter dalam game.
 - Memiliki atribut dasar seperti tipe karakter
 - Method:
@@ -29,7 +31,7 @@ Merupakan class dasar (superclass) untuk semua karakter dalam game.
 
 ---
 
-### 3. Player
+# 3. Player
 Class turunan dari Character yang merepresentasikan pemain.
 - Atribut:
   - Nama, Level, Health, Attack
@@ -40,7 +42,7 @@ Class turunan dari Character yang merepresentasikan pemain.
 
 ---
 
-### 4. Enemy
+# 4. Enemy
 Class turunan dari Character yang merepresentasikan musuh.
 - Atribut:
   - Bot (nama musuh), Health
@@ -49,7 +51,7 @@ Class turunan dari Character yang merepresentasikan musuh.
 
 ---
 
-### 5. Battle
+# 5. Battle
 Class yang mengatur proses pertarungan.
 - Method:
   - `StartBattle()` → memulai pertarungan
@@ -57,7 +59,7 @@ Class yang mengatur proses pertarungan.
 
 ---
 
-### 6. Map
+# 6. Map
 Class yang merepresentasikan peta permainan.
 - Atribut:
   - Nama map, ukuran
@@ -66,7 +68,7 @@ Class yang merepresentasikan peta permainan.
 
 ---
 
-### 7. Inventory
+# 7. Inventory
 Class untuk menyimpan item milik player.
 - Atribut:
   - Kapasitas inventory
@@ -76,7 +78,7 @@ Class untuk menyimpan item milik player.
 
 ---
 
-### 8. Item
+# 8. Item
 Class yang merepresentasikan item dalam game.
 - Atribut:
   - Nama item, tipe, efek
@@ -85,7 +87,7 @@ Class yang merepresentasikan item dalam game.
 
 ---
 
-### 9. Main
+# 9. Main
 Merupakan class utama yang menjalankan program.
 Alur program:
 1. Membuat objek game
@@ -98,7 +100,7 @@ Alur program:
 
 ---
 
-## Alur Singkat Program
+# Alur Singkat Program
 Program dimulai dari class `Main`, kemudian:
 - Game diinisialisasi
 - Player dan enemy dibuat
